@@ -3,7 +3,7 @@
     --second-color: #0a0a0a;
     --color-n3: #616161;
     --cubicbz: cubic-bezier(.9, 0, .1, 1);
-    --fz-big: 90px;
+    --fz-big: 60px;
     --indent: 50px;
     --indent2: 100px;
 
@@ -45,7 +45,7 @@ body {
 
 p {
     color: var(--color-n3);
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.4;
 }
 
@@ -133,14 +133,15 @@ img {
     top: 40%;
     will-change: transform;
     animation: rotate 5s linear infinite;
+    z-index: -1;
 }
 
 .section__item:nth-child(odd) .star {
-    right: -100px;
+    right: -10px;
 }
 
 .section__item:nth-child(even) .star {
-    left: -100px;
+    left: -10px;
 }
 
 @keyframes rotate {
