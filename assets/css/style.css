@@ -96,6 +96,13 @@ img {
     border-radius: 40px;
 }
 
+.section__span:hover {
+    color: var(--pr-color);
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .section__item:nth-child(odd) .section__span {
     left: 20px;
 }
