@@ -39,7 +39,7 @@ body {
     padding: 0 var(--indent);
 }
 
-.section__txt {
+.section-text {
     margin-top: var(--indent2);
 }
 
@@ -80,6 +80,7 @@ img {
 .section__txt {
     position: relative;
     padding: 200px var(--indent);
+    
 }
 
 .section__span {
@@ -110,11 +111,12 @@ img {
     text-transform: uppercase;
     mix-blend-mode: difference;
     transform: translateX(-200px);
+    
 }
 
 .section__item:nth-child(even) .section__title {
     text-align: right;
-    transform: translate(200px);
+    transform: translateX(200px);
 }
 
 .section__title .stroke {
