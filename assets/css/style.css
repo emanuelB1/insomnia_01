@@ -99,7 +99,7 @@ img {
 .section__span:hover {
     color: var(--pr-color);
     background: none;
-    text-decoration: underline;
+    font-size: 30px;
     cursor: pointer;
 }
 
